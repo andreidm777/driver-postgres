@@ -1,8 +1,8 @@
 package postgres
 
 import (
+	"github.com/andreidm777/gorm"
 	"github.com/jackc/pgx/v5/pgconn"
-	"gorm.io/gorm"
 )
 
 var errCodes = map[string]string{

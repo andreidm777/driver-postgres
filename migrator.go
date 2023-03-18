@@ -6,11 +6,11 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/andreidm777/gorm"
+	"github.com/andreidm777/gorm/clause"
+	"github.com/andreidm777/gorm/migrator"
+	"github.com/andreidm777/gorm/schema"
 	"github.com/jackc/pgx/v5"
-	"gorm.io/gorm"
-	"gorm.io/gorm/clause"
-	"gorm.io/gorm/migrator"
-	"gorm.io/gorm/schema"
 )
 
 const indexSql = `
